@@ -484,7 +484,7 @@ class Quicksave {
 					} else {
 						console.info(`${qs} File has been successfully written!`);
 						if(BdApi.showToast) 
-							BdApi.showToast(`Saved as ${dir+filename}`);
+							// BdApi.showToast(`Saved as ${dir+filename}`);
 						callback(null);
 					}
 				});
